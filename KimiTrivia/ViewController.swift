@@ -10,9 +10,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var UIVLogo: UIImageView!
+    
+    var logo1: UIImage = UIImage(named: "logo1")!
+    var logo2: UIImage = UIImage(named: "logo2")!
+    var logo3: UIImage = UIImage(named: "logo3")!
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        UIVLogo.animationImages = [logo1, logo2, logo3]
+        UIVLogo.animationDuration = 0.75
+        UIVLogo.startAnimating()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
