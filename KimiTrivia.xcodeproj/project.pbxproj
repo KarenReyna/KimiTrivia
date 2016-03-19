@@ -290,6 +290,7 @@
 				F69AB7651C9CEFE20072F235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
