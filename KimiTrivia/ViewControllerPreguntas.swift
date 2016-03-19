@@ -10,15 +10,25 @@ import UIKit
 
 class ViewControllerPreguntas: UIViewController {
 
+    @IBOutlet weak var progressTime: UIProgressView!
+    
+    
     var titulo: String = ""
     var player: jugador = jugador()
     var nivel: Int = 0
+    var timer = NSTimer()
+    var counter: Float = 0.0
+    var TIEMPO_MAX: Float = 2.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(titulo)
+        //print(titulo)
         //print(player)
-        print(nivel)
+        //print(nivel)
+        
+        timer = NSTimer.scheduledTimerWithTimeInterval(0.01, target:self, selector: Selector("updateTimer"), userInfo: nil, repeats: true)
+        
+        progressTime.progress = 1 - Float(counter)/TIEMPO_MAX
         
         // Do any additional setup after loading the view.
     }
@@ -26,6 +36,21 @@ class ViewControllerPreguntas: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func updateTimer(){
+        counter += 0.01
+        progressTime.progress = 1.0 - counter/TIEMPO_MAX
+        
+        
+        
+        if(counter >= TIEMPO_MAX){
+            print(counter)
+            
+            //self.presentViewController(ViewControllerFinDelJuego(), animated: true, completion: nil)
+           
+        }
+        
     }
     
 

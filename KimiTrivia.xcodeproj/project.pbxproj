@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7483F71F1C9DF203007370A0 /* ViewControllerFinDelJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */; };
 		F69AB7551C9CEFE20072F235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB7541C9CEFE20072F235 /* AppDelegate.swift */; };
 		F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB7561C9CEFE20072F235 /* ViewController.swift */; };
 		F69AB75A1C9CEFE20072F235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69AB7581C9CEFE20072F235 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFinDelJuego.swift; sourceTree = "<group>"; };
 		F69AB7511C9CEFE20072F235 /* KimiTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimiTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69AB7541C9CEFE20072F235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69AB7561C9CEFE20072F235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
 				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
+				7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */,
 				F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */,
 				F6F292D61C9DD365009FA50D /* jugador.swift */,
 				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6F292D71C9DD365009FA50D /* jugador.swift in Sources */,
+				7483F71F1C9DF203007370A0 /* ViewControllerFinDelJuego.swift in Sources */,
 				F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */,
 				F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */,
 				F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */,
