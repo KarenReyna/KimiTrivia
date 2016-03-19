@@ -15,6 +15,8 @@
 		F69AB7671C9CF4060072F235 /* preguntasNivelBasico.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69AB7661C9CF4060072F235 /* preguntasNivelBasico.plist */; };
 		F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */; };
 		F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */; };
+		F6F292D71C9DD365009FA50D /* jugador.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F292D61C9DD365009FA50D /* jugador.swift */; };
+		F6F292D91C9DD969009FA50D /* ViewControllerPreguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		F69AB7661C9CF4060072F235 /* preguntasNivelBasico.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preguntasNivelBasico.plist; sourceTree = "<group>"; };
 		F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fondoGradiente.swift; sourceTree = "<group>"; };
 		F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNivel.swift; sourceTree = "<group>"; };
+		F6F292D61C9DD365009FA50D /* jugador.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jugador.swift; sourceTree = "<group>"; };
+		F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPreguntas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
 				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
+				F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */,
+				F6F292D61C9DD365009FA50D /* jugador.swift */,
 				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */,
 				F69AB7601C9CEFE20072F235 /* Info.plist */,
@@ -145,9 +151,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6F292D71C9DD365009FA50D /* jugador.swift in Sources */,
 				F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */,
 				F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */,
 				F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */,
+				F6F292D91C9DD969009FA50D /* ViewControllerPreguntas.swift in Sources */,
 				F69AB7551C9CEFE20072F235 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

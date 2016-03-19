@@ -11,10 +11,16 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var UIVLogo: UIImageView!
+    var player: jugador = jugador()
+    
     
     var logo1: UIImage = UIImage(named: "Logo1")!
     var logo2: UIImage = UIImage(named: "Logo2")!
     var logo3: UIImage = UIImage(named: "Logo3")!
+    
+    
+    //BtnNiveles
+    
     
     
     
@@ -41,15 +47,18 @@ class ViewController: UIViewController {
         
         if(segue.identifier == "basico"){
             let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
-            view.titulo = "Basico"
+            view.titulo = "Básico"
+            view.player = self.player
         }
         else if(segue.identifier == "intermedio"){
             let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
             view.titulo = "Intermedio"
+            view.player = self.player
         }
         else if (segue.identifier == "avanzado"){
             let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
             view.titulo = "Avanzado"
+            view.player = self.player
         }
         
     }

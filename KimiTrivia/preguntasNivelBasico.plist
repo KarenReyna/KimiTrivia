@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<!--
-   preguntasNivelBasico.plist
-   KimiTrivia
-
-   Created by lizbeth garza walle on 18/03/16.
-   Copyright (c) 2016 Ana Karen Reyna. All rights reserved.
--->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-    <dict>
-    
-    </dict>
+<array>
+	<dict>
+		<key>p1</key>
+		<string>Como te llamas</string>
+		<key>r1</key>
+		<string>Leo</string>
+		<key>r2</key>
+		<string>Karen</string>
+		<key>r3</key>
+		<string>Luis</string>
+		<key>r4</key>
+		<string>Daniel</string>
+		<key>rc</key>
+		<string>Daniel</string>
+	</dict>
+</array>
 </plist>
