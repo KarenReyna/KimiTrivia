@@ -13,8 +13,8 @@
 		F69AB75C1C9CEFE20072F235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F69AB75B1C9CEFE20072F235 /* Assets.xcassets */; };
 		F69AB75F1C9CEFE20072F235 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */; };
 		F69AB7671C9CF4060072F235 /* preguntasNivelBasico.plist in Resources */ = {isa = PBXBuildFile; fileRef = F69AB7661C9CF4060072F235 /* preguntasNivelBasico.plist */; };
-		F69AB76C1C9D077B0072F235 /* ControllerNiveles.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB76B1C9D077B0072F235 /* ControllerNiveles.swift */; };
 		F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */; };
+		F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,8 +26,8 @@
 		F69AB75E1C9CEFE20072F235 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F69AB7601C9CEFE20072F235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F69AB7661C9CF4060072F235 /* preguntasNivelBasico.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = preguntasNivelBasico.plist; sourceTree = "<group>"; };
-		F69AB76B1C9D077B0072F235 /* ControllerNiveles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ControllerNiveles.swift; sourceTree = "<group>"; };
 		F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fondoGradiente.swift; sourceTree = "<group>"; };
+		F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerNivel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,11 +64,11 @@
 				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
 				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
-				F69AB76B1C9D077B0072F235 /* ControllerNiveles.swift */,
 				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */,
 				F69AB7601C9CEFE20072F235 /* Info.plist */,
 				F69AB7661C9CF4060072F235 /* preguntasNivelBasico.plist */,
+				F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */,
 			);
 			path = KimiTrivia;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */,
-				F69AB76C1C9D077B0072F235 /* ControllerNiveles.swift in Sources */,
+				F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */,
 				F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */,
 				F69AB7551C9CEFE20072F235 /* AppDelegate.swift in Sources */,
 			);

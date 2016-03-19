@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
         UIVLogo.animationImages = [logo1, logo2, logo3]
-        UIVLogo.animationDuration = 0.75
+        UIVLogo.animationDuration = 1
         UIVLogo.startAnimating()
         
         
@@ -35,6 +35,29 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
+        
+        
+        if(segue.identifier == "basico"){
+            let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
+            view.titulo = "Basico"
+        }
+        else if(segue.identifier == "intermedio"){
+            let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
+            view.titulo = "Intermedio"
+        }
+        else if (segue.identifier == "avanzado"){
+            let view: ViewControllerNivel = segue.destinationViewController as! ViewControllerNivel
+            view.titulo = "Avanzado"
+        }
+        
+    }
+    
+    // Pantalla de niveles
+    @IBAction func unwindNiveles(sender: UIStoryboardSegue) {
+        
+    }
 
 }
 
