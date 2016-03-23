@@ -11,14 +11,25 @@ import UIKit
 class ViewControllerPreguntas: UIViewController {
 
     @IBOutlet weak var progressTime: UIProgressView!
+    @IBOutlet weak var viewResultados: UIView!
     
-    
+    //Variables de Control
     var titulo: String = ""
     var player: jugador = jugador()
     var nivel: Int = 0
     var timer = NSTimer()
-    var counter: Float = 0.0
-    var TIEMPO_MAX: Float = 2.0
+    var counter: Float = 1.0
+    var TIEMPO_MAX: Float = 30.0
+    
+    
+    //Variables del cuestionario
+    var pregContestadas = 0
+    var p1 = false
+    var p2 = false
+    var p3 = false
+    var p4 = false
+    var p5 = false
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,17 +51,25 @@ class ViewControllerPreguntas: UIViewController {
     
     func updateTimer(){
         counter += 0.01
-        progressTime.progress = 1.0 - counter/TIEMPO_MAX
+        progressTime.progress = 1.0 - counter / TIEMPO_MAX
+        print(counter)
         
         
-        
-        if(counter >= TIEMPO_MAX){
+        if(counter >= TIEMPO_MAX || pregContestadas == 5){
+            timer.invalidate()
             print(counter)
-            
-            //self.presentViewController(ViewControllerFinDelJuego(), animated: true, completion: nil)
+            viewResultados.hidden = false
            
         }
         
+    }
+    
+    @IBAction func respondePregunta(sender: UIButton) {
+        pregContestadas++;
+        
+        if(pregContestadas > 5){
+            pregContestadas = 5
+        }
     }
     
 

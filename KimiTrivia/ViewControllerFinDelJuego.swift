@@ -10,6 +10,14 @@ import UIKit
 
 class ViewControllerFinDelJuego: UIViewController {
 
+    @IBOutlet weak var imgP1: UIImageView!
+    @IBOutlet weak var imgP2: UIImageView!
+    @IBOutlet weak var imgP3: UIImageView!
+    @IBOutlet weak var imgP4: UIImageView!
+    @IBOutlet weak var imgP5: UIImageView!
+    
+    
+    
     @IBOutlet weak var imagenGP: UIImageView!
     var imagen: String = "perdiste"
     var player: jugador = jugador()
