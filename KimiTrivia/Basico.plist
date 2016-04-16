@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Qué es química fragante?</string>
+		<key>A</key>
+		<string>Química del fuego</string>
+		<key>B</key>
+		<string>Química de perfumes y aromas</string>
+		<key>C</key>
+		<string>Química de medicinas</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Química de perfumes y aromas</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál fue la primera civilización en hacer perfumes?</string>
+		<key>A</key>
+		<string>Mesopotamia</string>
+		<key>B</key>
+		<string>Egipto</string>
+		<key>C</key>
+		<string>China</string>
+		<key>D</key>
+		<string>Mayas</string>
+		<key>Correcta</key>
+		<string>Mesopotamia</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cómo se llamaba la primer mujer en hacer perfumes?</string>
+		<key>A</key>
+		<string>Ana</string>
+		<key>B</key>
+		<string>Cleopatra</string>
+		<key>C</key>
+		<string>Tapputi</string>
+		<key>D</key>
+		<string>Malinche</string>
+		<key>Correcta</key>
+		<string>Tapputi</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Para qué usaban los egipcios los perfumes?</string>
+		<key>A</key>
+		<string>Complacer a sus dioses</string>
+		<key>B</key>
+		<string>Alejar malos espiritus</string>
+		<key>C</key>
+		<string>Las dos anteriores</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Las dos anteriores</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Actualmente para qué se usan los perfumes y fragancias?</string>
+		<key>A</key>
+		<string>Cuidado personal</string>
+		<key>B</key>
+		<string>Cuidado de la casa</string>
+		<key>C</key>
+		<string>Industria de los alimentos</string>
+		<key>D</key>
+		<string>Todas las anteriores</string>
+		<key>Correcta</key>
+		<string>Todas las anteriores</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Qué es un perfume?</string>
+		<key>A</key>
+		<string>Mezcla de fragancias y solventes</string>
+		<key>B</key>
+		<string>Mezcla de agua y sal</string>
+		<key>C</key>
+		<string>Las dos anteriores</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Mezcla de fragancias y solventes</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Qué es una fragancia?</string>
+		<key>A</key>
+		<string>Un polvo</string>
+		<key>B</key>
+		<string>Un líquido</string>
+		<key>C</key>
+		<string>No es nada</string>
+		<key>D</key>
+		<string>Un aceite escencial con un aroma</string>
+		<key>Correcta</key>
+		<string>Un aceite escencial con un aroma</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cómo se llama el método que usaban los egipcios para obtener una fragancia?</string>
+		<key>A</key>
+		<string>Aplastamiento</string>
+		<key>B</key>
+		<string>Prensado</string>
+		<key>C</key>
+		<string>Fermentación</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Prensado</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿De qué se extraen las fragancias?</string>
+		<key>A</key>
+		<string>Flores</string>
+		<key>B</key>
+		<string>Animales</string>
+		<key>C</key>
+		<string>Son hechas en un laboratorio</string>
+		<key>D</key>
+		<string>Todas las anteriores</string>
+		<key>Correcta</key>
+		<string>Todas las anteriores</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es el segundo paso en el que los egipcios hacían perfimes?</string>
+		<key>A</key>
+		<string>Conseguir la flor o el material</string>
+		<key>B</key>
+		<string>Mezclaban el material con un lípido</string>
+		<key>C</key>
+		<string>Prensado</string>
+		<key>D</key>
+		<string>Otro</string>
+		<key>Correcta</key>
+		<string>Prensado</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuáles son algunas de las técnicas modernas para separar fragancias?</string>
+		<key>A</key>
+		<string>Destilación</string>
+		<key>B</key>
+		<string>Prensado</string>
+		<key>C</key>
+		<string>Maceración</string>
+		<key>D</key>
+		<string>Todas las anteriores</string>
+		<key>Correcta</key>
+		<string>Todas las anteriores</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la técnica de separación en la que la planta se sumerge en aceite para sacar el aceite escencial?</string>
+		<key>A</key>
+		<string>Destilación</string>
+		<key>B</key>
+		<string>Prensado</string>
+		<key>C</key>
+		<string>Maceración</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Maceración</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la técnica de separación en la que la materia prima se pone en agua hirviendo para obtener su aceite esencial?</string>
+		<key>A</key>
+		<string>Destilación</string>
+		<key>B</key>
+		<string>Prensado</string>
+		<key>C</key>
+		<string>Maceración</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Destilación</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la técnica de separación en la que la materia prima es aplastada para obtener su esencia?</string>
+		<key>A</key>
+		<string>Destilación</string>
+		<key>B</key>
+		<string>Prensado</string>
+		<key>C</key>
+		<string>Maceración</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Prensado</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál no es una técnica de separación de fragancias?</string>
+		<key>A</key>
+		<string>Extracción</string>
+		<key>B</key>
+		<string>Enfleurage</string>
+		<key>C</key>
+		<string>Exudación</string>
+		<key>D</key>
+		<string>Filtrado</string>
+		<key>Correcta</key>
+		<string>Filtrado</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un portador es una sustancia donde la fragancia se disuelve?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Al evaporarse el portador se libera la fragancia?</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un aceite puede servir como portador?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un alcohol puede servir como portador?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿El fijador hace que el portador se evapore más rápido?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Falso</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes no es una categoría de los perfumes?</string>
+		<key>A</key>
+		<string>Agua de colonia</string>
+		<key>B</key>
+		<string>Agua de mar</string>
+		<key>C</key>
+		<string>Agua de toilette</string>
+		<key>D</key>
+		<string>Agua de perfume</string>
+		<key>Correcta</key>
+		<string>Agua de mar</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la categoría en la que el perfume contiene 1-5% de fragancia?</string>
+		<key>A</key>
+		<string>Agua de toilette</string>
+		<key>B</key>
+		<string>Agua de perfume</string>
+		<key>C</key>
+		<string>Agua de colonia</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Agua de colonia</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la categoría en la que el perfume contiene 6-10% de fragancia?</string>
+		<key>A</key>
+		<string>Agua de toilette</string>
+		<key>B</key>
+		<string>Agua de perfume</string>
+		<key>C</key>
+		<string>Agua de colonia</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Agua de toilette</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la categoría en la que el perfume contiene 10-20% de fragancia?</string>
+		<key>A</key>
+		<string>Agua de toilette</string>
+		<key>B</key>
+		<string>Agua de perfume</string>
+		<key>C</key>
+		<string>Agua de colonia</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Agua de perfume</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál es la categoría en la que el perfume contiene 25% de fragancia?</string>
+		<key>A</key>
+		<string>Agua de toilette</string>
+		<key>B</key>
+		<string>Agua de perfume</string>
+		<key>C</key>
+		<string>Agua de colonia</string>
+		<key>D</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Correcta</key>
+		<string>Ninguna de las anteriores</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

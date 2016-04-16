@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R9o-7N-bJk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="R9o-7N-bJk">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -183,10 +183,10 @@
             </objects>
             <point key="canvasLocation" x="2636.5" y="272.5"/>
         </scene>
-        <!--View Controller-->
+        <!--View Controller Autores-->
         <scene sceneID="GQX-u2-nAC">
             <objects>
-                <viewController id="y4b-5T-pdz" sceneMemberID="viewController">
+                <viewController id="y4b-5T-pdz" customClass="ViewControllerAutores" customModule="KimiTrivia" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EQL-Y4-0SI"/>
                         <viewControllerLayoutGuide type="bottom" id="EHE-Ds-Fx2"/>
@@ -251,6 +251,7 @@
                                             <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                         </userDefinedRuntimeAttributes>
                                         <connections>
+                                            <action selector="sonidoBoton:" destination="y4b-5T-pdz" eventType="touchUpInside" id="SaZ-g6-5lG"/>
                                             <segue destination="sf7-4t-BuN" kind="unwind" unwindAction="unwindNiveles:" id="lNE-aH-3zA"/>
                                         </connections>
                                     </button>
@@ -354,6 +355,7 @@ A01363332</string>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
+                                    <action selector="botonSonido:" destination="M5C-Il-RX7" eventType="touchUpInside" id="hLh-YA-lVH"/>
                                     <segue destination="UuW-IQ-eXK" kind="unwind" unwindAction="unwindNiveles:" id="zSW-gb-5Q1"/>
                                 </connections>
                             </button>
@@ -388,7 +390,7 @@ A01363332</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb4-0C-2qD">
-                                <rect key="frame" x="19" y="313" width="90" height="90"/>
+                                <rect key="frame" x="81" y="313" width="90" height="90"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
                                 <state key="normal" title="4" backgroundImage="Nivel">
                                     <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
@@ -398,53 +400,13 @@ A01363332</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CxU-EP-sio">
-                                <rect key="frame" x="144" y="313" width="90" height="90"/>
+                                <rect key="frame" x="201" y="313" width="90" height="90"/>
                                 <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
                                 <state key="normal" title="5" backgroundImage="Nivel">
                                     <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <segue destination="PWY-Ec-Ifw" kind="presentation" identifier="5" modalTransitionStyle="crossDissolve" id="Kp3-F7-N29"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ei8-az-2HE">
-                                <rect key="frame" x="18" y="433" width="90" height="90"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
-                                <state key="normal" title="7" backgroundImage="Nivel">
-                                    <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PWY-Ec-Ifw" kind="presentation" identifier="7" modalTransitionStyle="crossDissolve" id="SM6-j0-XcE"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Fd-jS-u5J">
-                                <rect key="frame" x="143" y="433" width="90" height="90"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
-                                <state key="normal" title="8" backgroundImage="Nivel">
-                                    <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PWY-Ec-Ifw" kind="presentation" identifier="8" modalTransitionStyle="crossDissolve" id="eRS-fj-nfO"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pq5-0P-iEU">
-                                <rect key="frame" x="266" y="433" width="90" height="90"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
-                                <state key="normal" title="9" backgroundImage="Nivel">
-                                    <color key="titleColor" red="0.29803922772407532" green="0.29803922772407532" blue="0.29803922772407532" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PWY-Ec-Ifw" kind="presentation" identifier="9" modalTransitionStyle="crossDissolve" id="b5p-8a-hCW"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Epc-M1-0TN">
-                                <rect key="frame" x="265" y="313" width="90" height="90"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="37"/>
-                                <state key="normal" title="6" backgroundImage="Nivel">
-                                    <color key="titleColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="PWY-Ec-Ifw" kind="presentation" identifier="6" modalTransitionStyle="crossDissolve" id="923-kM-QfP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -458,10 +420,6 @@ A01363332</string>
                         <outlet property="btn3" destination="SDr-ff-rIg" id="R6d-fF-YLz"/>
                         <outlet property="btn4" destination="Wb4-0C-2qD" id="j2m-4v-4UA"/>
                         <outlet property="btn5" destination="CxU-EP-sio" id="4Ye-Jr-HjG"/>
-                        <outlet property="btn6" destination="Epc-M1-0TN" id="y7S-Zz-NLc"/>
-                        <outlet property="btn7" destination="Ei8-az-2HE" id="Lfd-ZG-911"/>
-                        <outlet property="btn8" destination="7Fd-jS-u5J" id="42W-vm-x3o"/>
-                        <outlet property="btn9" destination="Pq5-0P-iEU" id="hbw-xv-PGC"/>
                         <outlet property="lblNivel" destination="Pa3-7b-mQB" id="rVs-no-lzu"/>
                     </connections>
                 </viewController>
@@ -496,16 +454,25 @@ A01363332</string>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0op-Ji-nMz" customClass="fondoGradiente" customModule="KimiTrivia" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 1: ????????????????????? ????????????????????? ???????????" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdX-Oz-ea3">
-                                        <rect key="frame" x="24" y="108" width="326" height="171"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="watch" translatesAutoresizingMaskIntoConstraints="NO" id="JN7-8l-01C">
+                                        <rect key="frame" x="151" y="41" width="32" height="30"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybb-Dh-XT4">
+                                        <rect key="frame" x="187" y="47" width="66" height="18"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 1: ????????????????????? ????????????????????? ???????????" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdX-Oz-ea3">
+                                        <rect key="frame" x="24" y="108" width="326" height="171"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdD-Er-G0r">
                                         <rect key="frame" x="24" y="385" width="326" height="51"/>
                                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -519,7 +486,7 @@ A01363332</string>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1A-R9-BRQ">
                                         <rect key="frame" x="24" y="444" width="326" height="51"/>
                                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -533,7 +500,7 @@ A01363332</string>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a26-jk-gfk">
                                         <rect key="frame" x="24" y="503" width="326" height="51"/>
                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -547,7 +514,7 @@ A01363332</string>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhk-Y7-FAw">
                                         <rect key="frame" x="24" y="326" width="326" height="51"/>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="25"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -563,7 +530,7 @@ A01363332</string>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.20000000000000001"/>
                                         <color key="progressTintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </progressView>
-                                    <view hidden="YES" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-lm-seW">
+                                    <view hidden="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-lm-seW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
                                             <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8ji-bC-Wi0">
@@ -577,7 +544,7 @@ A01363332</string>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="Yrs-NK-vKq" kind="presentation" modalTransitionStyle="crossDissolve" id="9gU-g8-hdq"/>
+                                                    <segue destination="Yrs-NK-vKq" kind="presentation" identifier="Resultados" modalTransitionStyle="crossDissolve" id="9gU-g8-hdq"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -600,6 +567,12 @@ A01363332</string>
                     <navigationItem key="navigationItem" id="Dov-Zm-aBc"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="btnRespuestaA" destination="yhk-Y7-FAw" id="r80-kE-91j"/>
+                        <outlet property="btnRespuestaB" destination="mdD-Er-G0r" id="FlL-2f-FTi"/>
+                        <outlet property="btnRespuestaC" destination="F1A-R9-BRQ" id="4rr-oB-Y6F"/>
+                        <outlet property="btnRespuestaD" destination="a26-jk-gfk" id="iXC-ix-eXR"/>
+                        <outlet property="lblPregunta" destination="cdX-Oz-ea3" id="OXS-i8-yI1"/>
+                        <outlet property="lblTiempo" destination="ybb-Dh-XT4" id="yy6-nf-v8Q"/>
                         <outlet property="progressTime" destination="SZK-m7-LCx" id="COH-br-T0P"/>
                         <outlet property="viewResultados" destination="qj0-lm-seW" id="TD3-xB-6fI"/>
                     </connections>
@@ -624,9 +597,6 @@ A01363332</string>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nXL-mm-4Sb" customClass="fondoGradiente" customModule="KimiTrivia" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
-                                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pxR-aE-DIW">
-                                        <rect key="frame" x="8" y="72" width="359" height="222"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bien" translatesAutoresizingMaskIntoConstraints="NO" id="kOq-ws-eHg">
                                         <rect key="frame" x="8" y="261" width="60" height="60"/>
                                     </imageView>
@@ -642,39 +612,54 @@ A01363332</string>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mal" translatesAutoresizingMaskIntoConstraints="NO" id="887-ud-q9c">
                                         <rect key="frame" x="8" y="533" width="60" height="60"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 1" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2Y-zU-4k3">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 1" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c2Y-zU-4k3">
                                         <rect key="frame" x="76" y="261" width="291" height="60"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 2" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLC-2Z-wPy">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 2" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WLC-2Z-wPy">
                                         <rect key="frame" x="76" y="329" width="291" height="60"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 3" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZR-SS-GOL">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 3" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XZR-SS-GOL">
                                         <rect key="frame" x="76" y="397" width="291" height="60"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 4" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNG-xo-MRg">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 4" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eNG-xo-MRg">
                                         <rect key="frame" x="76" y="465" width="291" height="60"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 5" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieB-WG-wvJ">
-                                        <rect key="frame" x="76" y="533" width="291" height="60"/>
-                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
-                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="resultados" translatesAutoresizingMaskIntoConstraints="NO" id="iqT-RL-f15">
-                                        <rect key="frame" x="8" y="72" width="359" height="222"/>
+                                        <rect key="frame" x="8" y="31" width="359" height="222"/>
                                     </imageView>
+                                    <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF4-Xp-zCH">
+                                        <rect key="frame" x="245" y="31" width="110" height="36"/>
+                                        <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
+                                        <state key="normal" title="Menú">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="sonidoBoton:" destination="Yrs-NK-vKq" eventType="touchUpInside" id="u5Q-aj-kp1"/>
+                                            <segue destination="gcg-8u-zjs" kind="unwind" unwindAction="unwindNiveles:" id="yVq-rj-jJj"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 5" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ieB-WG-wvJ">
+                                        <rect key="frame" x="76" y="533" width="291" height="60"/>
+                                        <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="17"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
@@ -686,32 +671,23 @@ A01363332</string>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZF4-Xp-zCH">
-                                <rect key="frame" x="245" y="28" width="110" height="36"/>
-                                <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
-                                <state key="normal" title="Menú">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
-                                </userDefinedRuntimeAttributes>
-                                <connections>
-                                    <segue destination="gcg-8u-zjs" kind="unwind" unwindAction="unwindNiveles:" id="yVq-rj-jJj"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="cve-6F-u0v"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="imagenGP" destination="pxR-aE-DIW" id="MdP-OS-LRD"/>
+                        <outlet property="btnMenu" destination="ZF4-Xp-zCH" id="Xhx-LN-ylV"/>
                         <outlet property="imgP1" destination="kOq-ws-eHg" id="t4G-kY-hRF"/>
                         <outlet property="imgP2" destination="xg1-3I-jXD" id="2nO-g8-x6s"/>
                         <outlet property="imgP3" destination="9sh-YF-0sa" id="wkO-IF-Eef"/>
                         <outlet property="imgP4" destination="XqK-sr-UZi" id="Exs-VN-nB8"/>
                         <outlet property="imgP5" destination="887-ud-q9c" id="pDv-hS-bGS"/>
+                        <outlet property="lblP1" destination="c2Y-zU-4k3" id="Lfu-gu-kpV"/>
+                        <outlet property="lblP2" destination="WLC-2Z-wPy" id="ylX-Fi-cEw"/>
+                        <outlet property="lblP3" destination="XZR-SS-GOL" id="DCP-nF-gI5"/>
+                        <outlet property="lblP4" destination="eNG-xo-MRg" id="Hdi-KX-dmP"/>
+                        <outlet property="lblP5" destination="ieB-WG-wvJ" id="Y2l-h4-hEV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GfD-gu-HC0" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -751,9 +727,10 @@ A01363332</string>
         <image name="microscopio" width="96" height="96"/>
         <image name="molecula" width="96" height="96"/>
         <image name="resultados" width="1203" height="435"/>
+        <image name="watch" width="100" height="100"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="sjJ-L9-rcw"/>
         <segue reference="U6O-4L-Zbk"/>
+        <segue reference="Kp3-F7-N29"/>
     </inferredMetricsTieBreakers>
 </document>

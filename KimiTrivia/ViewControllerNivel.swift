@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewControllerNivel: UIViewController {
 
     @IBOutlet weak var lblNivel: UILabel!
     var titulo: String = "aaa"
     var player: jugador = jugador()
+    
+    var sonidoClick = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Blop", ofType: "mp3")!)
+    var audioClick = AVAudioPlayer()
     
     //BotonesNiveles
     @IBOutlet weak var btn1: UIButton!
@@ -31,7 +35,8 @@ class ViewControllerNivel: UIViewController {
         super.viewDidLoad()
         lblNivel.text = titulo
 
-        // Do any additional setup after loading the view.
+        audioClick = try! AVAudioPlayer(contentsOfURL: sonidoClick, fileTypeHint: nil)
+        audioClick.prepareToPlay()
         
         var puntos: Int = 0
         
@@ -72,6 +77,10 @@ class ViewControllerNivel: UIViewController {
         
     }
 
+    @IBAction func botonSonido(sender: AnyObject){
+       audioClick.play()
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
@@ -87,7 +96,8 @@ class ViewControllerNivel: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?){
         
-        if(segue.identifier == "1" || segue.identifier == "2" || segue.identifier == "3" || segue.identifier == "4" || segue.identifier == "5" || segue.identifier == "6" || segue.identifier == "7" || segue.identifier == "8" || segue.identifier == "9"){
+        if(segue.identifier == "1" || segue.identifier == "2" || segue.identifier == "3" || segue.identifier == "4" || segue.identifier == "5"){
+            audioClick.play()
             let view: ViewControllerPreguntas = segue.destinationViewController as! ViewControllerPreguntas
             view.titulo = self.titulo
             view.player = self.player

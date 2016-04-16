@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Texto</key>
+		<string>Las Soluciones son mezclas homogéneos, que están constituidas básicamente por dos componentes llamados Solvente y Soluto. ​
+​
+El Solvente básicamente es la cantidad mayoritaria de la solución, es aquello que contiene al soluto. Por ejemplo si pensamos en agua salada, el agua es el solvente y la sal representa el soluto.​
+​
+El soluto es la sustancia que, por lo general, se encuentra en menor cantidad y que se disuelve en la mezcla.​</string>
+	</dict>
+	<dict>
+		<key>Texto</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Texto</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Texto</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Texto</key>
+		<string></string>
+	</dict>
+</array>
+</plist>

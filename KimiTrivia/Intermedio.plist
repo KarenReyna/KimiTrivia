@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cómo se clasifican las mezclas?</string>
+		<key>A</key>
+		<string>Homogéneas</string>
+		<key>B</key>
+		<string>Heterogéneas</string>
+		<key>C</key>
+		<string>Didácticas</string>
+		<key>D</key>
+		<string>Las primeras dos</string>
+		<key>Correcta</key>
+		<string>Las primeras dos</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Mézcla en la que se distinguen los componentes a simple vista</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Movil</string>
+		<key>C</key>
+		<string>Acuosa</string>
+		<key>D</key>
+		<string>Solvente</string>
+		<key>Correcta</key>
+		<string>Heterogénea</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál no es un componente de una mezcla?</string>
+		<key>A</key>
+		<string>Solido</string>
+		<key>B</key>
+		<string>Gelatinoso</string>
+		<key>C</key>
+		<string>Líquido</string>
+		<key>D</key>
+		<string>Gaseoso</string>
+		<key>Correcta</key>
+		<string>Gelatinoso</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Una mezcla tiene como mínimo 2 sustancias</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Es dificil diferencias los componentes de esta mezcla a simple vista</string>
+		<key>A</key>
+		<string>Homogénea</string>
+		<key>B</key>
+		<string>Soluto</string>
+		<key>C</key>
+		<string>Geterogénea</string>
+		<key>D</key>
+		<string>Soluciones</string>
+		<key>Correcta</key>
+		<string>Homogénea</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un vaso con agua y hielo es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un refresco de sabor es una mézcla heterogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Falso</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Una ensalada es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un vaso con agua y aceite es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Agua con sal es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Falso</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Un vaso con agua y hielo es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Falso</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿El aire es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cereal con leche es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Falso</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Una barra de chocolate es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Verdadero</string>
+		<key>B</key>
+		<string>Falso</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿La gelatina de limón es una mézcla homogénea?</string>
+		<key>A</key>
+		<string>Falso</string>
+		<key>B</key>
+		<string>Verdadero</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Verdadero</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Agua y aceite</string>
+		<key>B</key>
+		<string>Café</string>
+		<key>C</key>
+		<string>Agua de horchata</string>
+		<key>D</key>
+		<string>Jabón líquido</string>
+		<key>Correcta</key>
+		<string>Agua y aceite</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Piedras de río</string>
+		<key>B</key>
+		<string>Agua con gajos de limón</string>
+		<key>C</key>
+		<string>Ensalada</string>
+		<key>D</key>
+		<string>Miel de maple</string>
+		<key>Correcta</key>
+		<string>Miel de maple</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Tazón de cereal</string>
+		<key>B</key>
+		<string>Arena con piedras</string>
+		<key>C</key>
+		<string>Piedras de granito</string>
+		<key>D</key>
+		<string>Masa para hacer un pastel</string>
+		<key>Correcta</key>
+		<string>Masa para hacer un pastel</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes es una mezcla homogénea?</string>
+		<key>A</key>
+		<string>Arroz con frijoles</string>
+		<key>B</key>
+		<string>Cacahuates</string>
+		<key>C</key>
+		<string>Moros con cristianos</string>
+		<key>D</key>
+		<string>Agua embotellada</string>
+		<key>Correcta</key>
+		<string>Agua embotellada</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>¿Cuál de las siguientes es una mezcla heterogénea?</string>
+		<key>A</key>
+		<string>Basura en un río</string>
+		<key>B</key>
+		<string>Chocolate derretido</string>
+		<key>C</key>
+		<string>Agua embotellada</string>
+		<key>D</key>
+		<string>Café</string>
+		<key>Correcta</key>
+		<string>Basura en un río</string>
+		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Arroz con leche</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Homogénea</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Heterogénea</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Agua y hielo</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Homogénea</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Heterogénea</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Café con leche</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Homogénea</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Homogénea</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Sal y arena</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Homogénea</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Homogénea</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>Pregunta</key>
+		<string>Papilla de bebé</string>
+		<key>A</key>
+		<string>Heterogénea</string>
+		<key>B</key>
+		<string>Homogénea</string>
+		<key>C</key>
+		<string></string>
+		<key>D</key>
+		<string></string>
+		<key>Correcta</key>
+		<string>Homogénea</string>
+		<key>Tipo</key>
+		<string>VF</string>
+		<key>Imagen</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
