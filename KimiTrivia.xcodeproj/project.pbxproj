@@ -69,6 +69,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		74CBF3F11CC566DF005226F4 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */,
+				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
+				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
+				7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */,
+				7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */,
+				F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */,
+				F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		74CBF3F21CC56703005226F4 /* Clases */ = {
+			isa = PBXGroup;
+			children = (
+				F6F292D61C9DD365009FA50D /* jugador.swift */,
+			);
+			name = Clases;
+			sourceTree = "<group>";
+		};
 		74CD9FE91CC17F2D00E262CF /* Preguntas */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,18 +135,12 @@
 		F69AB7531C9CEFE20072F235 /* KimiTrivia */ = {
 			isa = PBXGroup;
 			children = (
-				F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */,
-				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
-				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
-				7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */,
-				7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */,
-				F6F292D81C9DD969009FA50D /* ViewControllerPreguntas.swift */,
-				F6F292D61C9DD365009FA50D /* jugador.swift */,
-				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */,
+				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB7601C9CEFE20072F235 /* Info.plist */,
-				F69AB76F1C9D16650072F235 /* ViewControllerNivel.swift */,
+				74CBF3F11CC566DF005226F4 /* View Controllers */,
+				74CBF3F21CC56703005226F4 /* Clases */,
 				74CD9FF61CC1A3A800E262CF /* Sonidos */,
 				74CD9FE91CC17F2D00E262CF /* Preguntas */,
 			);

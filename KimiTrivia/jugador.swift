@@ -10,8 +10,8 @@ import UIKit
 
 class jugador: NSObject {
     
-    var puntosBasico = 50
-    var puntosIntermedio = 50
-    var puntosAvanzado = 50
+    var puntosBasico = 0
+    var puntosIntermedio = 0
+    var puntosAvanzado = 0
 
 }

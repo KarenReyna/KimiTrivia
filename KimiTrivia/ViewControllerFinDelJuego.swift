@@ -55,7 +55,7 @@ class ViewControllerFinDelJuego: UIViewController {
         audioMuestra = try! AVAudioPlayer(contentsOfURL: sonidoMuestra, fileTypeHint: nil)
         audioMuestra.prepareToPlay()
         
-        print(respuestas)
+        //print(respuestas)
         //Muestro Resultados en imageViews
         if (respuestas[0] == true) {
             imgP1.image = imgCorrecto
@@ -98,7 +98,7 @@ class ViewControllerFinDelJuego: UIViewController {
         }
         
         //Muestro Preguntas el Labels
-        print(preguntasFinal)
+        //print(preguntasFinal)
         lblP1.text = preguntasFinal[0]
         lblP2.text = preguntasFinal[1]
         lblP3.text = preguntasFinal[2]
@@ -129,7 +129,7 @@ class ViewControllerFinDelJuego: UIViewController {
     func updateTimer(){
         counter += 0.01
         
-        print(counter)
+        //print(counter)
         
         if(counter >= 1.0 && counter < 2.0){
             audioMuestra.play()

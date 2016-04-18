@@ -11,25 +11,17 @@ import AVFoundation
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var UIVLogo: UIImageView!
     var player: jugador = jugador()
     
     var sonidoClick = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Blop", ofType: "mp3")!)
     var audioClick = AVAudioPlayer()
     var ThemePlayer = AVAudioPlayer()
     
-    var logo1: UIImage = UIImage(named: "Logo1")!
-    var logo2: UIImage = UIImage(named: "Logo2")!
-    var logo3: UIImage = UIImage(named: "Logo3")!
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
-        UIVLogo.animationImages = [logo1, logo2, logo3]
-        UIVLogo.animationDuration = 1
-        UIVLogo.startAnimating()
         
         audioClick = try! AVAudioPlayer(contentsOfURL: sonidoClick, fileTypeHint: nil)
         audioClick.prepareToPlay()
