@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7448C9F71CC5D21500F9AC59 /* usuario.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7448C9F61CC5D21500F9AC59 /* usuario.plist */; };
 		7458E4761CC1CFFB0082503A /* muestraRespuesta.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7458E4751CC1CFFB0082503A /* muestraRespuesta.mp3 */; };
 		7458E4781CC1D45B0082503A /* ViewControllerAutores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */; };
 		7458E47A1CC1D9970082503A /* Blue_Skies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7458E4791CC1D9970082503A /* Blue_Skies.mp3 */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7448C9F61CC5D21500F9AC59 /* usuario.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = usuario.plist; sourceTree = "<group>"; };
 		7458E4751CC1CFFB0082503A /* muestraRespuesta.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muestraRespuesta.mp3; sourceTree = "<group>"; };
 		7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAutores.swift; sourceTree = "<group>"; };
 		7458E4791CC1D9970082503A /* Blue_Skies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blue_Skies.mp3; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
+				7448C9F61CC5D21500F9AC59 /* usuario.plist */,
 				F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */,
 				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB7601C9CEFE20072F235 /* Info.plist */,
@@ -208,6 +211,7 @@
 				F69AB75F1C9CEFE20072F235 /* LaunchScreen.storyboard in Resources */,
 				74CD9FF51CC186BC00E262CF /* Basico.plist in Resources */,
 				74CD9FFA1CC1A67700E262CF /* countdown.mp3 in Resources */,
+				7448C9F71CC5D21500F9AC59 /* usuario.plist in Resources */,
 				F69AB75C1C9CEFE20072F235 /* Assets.xcassets in Resources */,
 				7458E47A1CC1D9970082503A /* Blue_Skies.mp3 in Resources */,
 				74CD9FF11CC181D800E262CF /* AvanzadoTextos.plist in Resources */,

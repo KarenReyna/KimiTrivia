@@ -33,7 +33,8 @@ class ViewControllerFinDelJuego: UIViewController {
     var TIEMPO_MAX: Float = 5.0
     
     var imagen: String = "perdiste"
-    var player: jugador = jugador()
+    var titulo: String = ""
+    var nivel: Int = 0
     
     var imgCorrecto: UIImage = UIImage(named: "bien")!
     var imgIncorrecto: UIImage = UIImage(named: "mal")!
@@ -41,12 +42,19 @@ class ViewControllerFinDelJuego: UIViewController {
     var respuestas:[Bool] = [false,false,false,false,false]
     var preguntasFinal:[String] = ["1", "2", "3", "4", "5"]
 
+    var merecePuntos: Bool = false
+    
     var sonidoClick = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Blop", ofType: "mp3")!)
     var audioClick = AVAudioPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
     
+        if(respuestas[0] && respuestas[1] && respuestas[2] && respuestas[3] && respuestas[4]){
+            merecePuntos = true
+            guardarPuntos()
+        }
+        
         audioClick = try! AVAudioPlayer(contentsOfURL: sonidoClick, fileTypeHint: nil)
         audioClick.prepareToPlay()
         
@@ -104,7 +112,6 @@ class ViewControllerFinDelJuego: UIViewController {
         lblP3.text = preguntasFinal[2]
         lblP4.text = preguntasFinal[3]
         lblP5.text = preguntasFinal[4]
-        
         
         lblP1.hidden = true
         lblP2.hidden = true
@@ -169,6 +176,83 @@ class ViewControllerFinDelJuego: UIViewController {
         audioClick.play()
     }
     
+    func guardarPuntos(){
+        
+        let fileName = "/usuario.plist"
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let documentsDirectory = paths[0]
+        let filePath: String = documentsDirectory.stringByAppendingString(fileName)
+        var puntosArr: NSMutableArray = NSMutableArray()
+        //let path = NSBundle.mainBundle().pathForResource("usuario", ofType: "plist")
+        puntosArr = NSMutableArray(contentsOfFile: filePath)!
+        var puntos: Int = 0
+        
+        if(titulo == "Básico"){
+            puntos = Int(puntosArr.objectAtIndex(0).objectForKey("puntosBasico")! as! NSNumber)
+            if(nivel == 1 && puntos == 0){
+                puntos += 5
+            }
+            else if(nivel == 2 && puntos == 5){
+                puntos += 5
+            }
+            else if(nivel == 3 && puntos == 10){
+                puntos += 5
+            }
+            else if(nivel == 4 && puntos == 15){
+                puntos += 5
+            }
+            else if(nivel == 5 && puntos == 20){
+                puntos += 5
+            }
+            puntosArr.objectAtIndex(0).setObject(puntos, forKey: "puntosBasico")
+        }
+        else if (titulo == "Intermedio"){
+            puntos = Int(puntosArr.objectAtIndex(0).objectForKey("puntosIntermedio")! as!NSNumber)
+            if(nivel == 1 && puntos == 0){
+                puntos += 5
+            }
+            else if(nivel == 2 && puntos == 5){
+                puntos += 5
+            }
+            else if(nivel == 3 && puntos == 10){
+                puntos += 5
+            }
+            else if(nivel == 4 && puntos == 15){
+                puntos += 5
+            }
+            else if(nivel == 5 && puntos == 20){
+                puntos += 5
+            }
+            puntosArr.objectAtIndex(0).setObject(puntos, forKey: "puntosIntermedio")
+            
+        }
+        else if(titulo == "Avanzado"){
+            puntos = Int(puntosArr.objectAtIndex(0).objectForKey("puntosAvanzado")! as! NSNumber)
+            if(nivel == 1 && puntos == 0){
+                puntos += 5
+            }
+            else if(nivel == 2 && puntos == 5){
+                puntos += 5
+            }
+            else if(nivel == 3 && puntos == 10){
+                puntos += 5
+            }
+            else if(nivel == 4 && puntos == 15){
+                puntos += 5
+            }
+            else if(nivel == 5 && puntos == 20){
+                puntos += 5
+            }
+            puntosArr.objectAtIndex(0).setObject(puntos, forKey: "puntosAvanzado")
+        }
+        
+        //print(puntosArr)
+        
+        //Guardo NSMutableArray en Plist
+        print(filePath)
+        puntosArr.writeToFile(filePath, atomically: true)
+    }
+
     
 
     /*

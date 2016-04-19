@@ -196,6 +196,8 @@ class ViewControllerPreguntas: UIViewController {
             let vista = segue.destinationViewController as! ViewControllerFinDelJuego
             vista.respuestas = self.respuestas
             vista.preguntasFinal = self.preguntasFinal
+            vista.titulo = self.titulo
+            vista.nivel = self.nivel
         }
     }
     

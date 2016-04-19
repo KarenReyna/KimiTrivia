@@ -14,6 +14,7 @@ class ViewControllerNivel: UIViewController {
     @IBOutlet weak var lblNivel: UILabel!
     var titulo: String = "aaa"
     var player: jugador = jugador()
+    var puntos: Int = 0
     
     var sonidoClick = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Blop", ofType: "mp3")!)
     var audioClick = AVAudioPlayer()
@@ -25,8 +26,6 @@ class ViewControllerNivel: UIViewController {
     @IBOutlet weak var btn4: UIButton!
     @IBOutlet weak var btn5: UIButton!
     
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         lblNivel.text = titulo
@@ -34,30 +33,7 @@ class ViewControllerNivel: UIViewController {
         audioClick = try! AVAudioPlayer(contentsOfURL: sonidoClick, fileTypeHint: nil)
         audioClick.prepareToPlay()
         
-        var puntos: Int = 0
-        
-        if(titulo == "Básico"){
-            puntos = player.puntosBasico
-        }
-        else if (titulo == "Intermedio"){
-            puntos = player.puntosIntermedio
-        }
-        else if(titulo == "Avanzado"){
-            puntos = player.puntosAvanzado
-        }
-        
-        if(puntos < 5){
-            btn2.enabled = false
-        }
-        if(puntos < 10){
-            btn3.enabled = false
-        }
-        if(puntos < 15){
-            btn4.enabled = false
-        }
-        if(puntos < 20){
-            btn5.enabled = false
-        }
+        cargarPuntos()
 
     }
 
@@ -71,7 +47,67 @@ class ViewControllerNivel: UIViewController {
     }
     
 
+    override func viewDidAppear(animated: Bool) {
+        cargarPuntos()
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        cargarPuntos()
+    }
+    
     @IBAction func unwindNiveles(sender: UIStoryboardSegue) {
+        print("Llega unwind")
+        cargarPuntos()
+        print("pasa cargaPuntos")
+    }
+    
+    func cargarPuntos(){
+        //var puntosArr: NSArray = NSArray()
+        //let path = NSBundle.mainBundle().pathForResource("usuario", ofType: "plist")
+        let fileName = "/usuario.plist"
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let documentsDirectory = paths[0]
+        let filePath: String = documentsDirectory.stringByAppendingString(fileName)
+        var puntosArr: NSMutableArray = NSMutableArray()
+        //let path = NSBundle.mainBundle().pathForResource("usuario", ofType: "plist")
+        puntosArr = NSMutableArray(contentsOfFile: filePath)!
+
+        
+        player.puntosBasico = Int(puntosArr.objectAtIndex(0).objectForKey("puntosBasico")! as! NSNumber)
+        player.puntosIntermedio = Int(puntosArr.objectAtIndex(0).objectForKey("puntosIntermedio")! as! NSNumber)
+        player.puntosAvanzado = Int(puntosArr.objectAtIndex(0).objectForKey("puntosAvanzado")! as! NSNumber)
+        
+        
+        if(titulo == "Básico"){
+            puntos = player.puntosBasico
+        }
+        else if (titulo == "Intermedio"){
+            puntos = player.puntosIntermedio
+        }
+        else if(titulo == "Avanzado"){
+            puntos = player.puntosAvanzado
+        }
+        
+        if(puntos >= 5){
+            btn2.enabled = true
+        }
+        if(puntos >= 10){
+            btn3.enabled = true
+        }
+        if(puntos >= 15){
+            btn4.enabled = true
+        }
+        if(puntos >= 20){
+            btn5.enabled = true
+        }
+        
+        //Prints
+        print(titulo)
+        print("Puntos Básico: " + String(player.puntosBasico))
+        print("Puntos Intermedio: " + String(player.puntosIntermedio))
+        print("Puntos Avanzado: " + String(player.puntosAvanzado))
+        print("")
+        
         
     }
     

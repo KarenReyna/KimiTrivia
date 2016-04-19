@@ -31,6 +31,26 @@ class ViewController: UIViewController {
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.stopMusic), name: UIApplicationDidEnterBackgroundNotification, object: app)
         NSNotificationCenter.defaultCenter().addObserver(self, selector: #selector(ViewController.playMusic), name: UIApplicationDidBecomeActiveNotification, object: app)
         
+        
+        //crear archivo de puntos de usuario
+        let fileName = "/usuario.plist"
+        let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+        let documentsDirectory = paths[0]
+        let filePath: String = documentsDirectory.stringByAppendingString(fileName)
+        let checkValidation = NSFileManager.defaultManager()
+        
+        if(!checkValidation.fileExistsAtPath(filePath)){
+            var puntosArr: NSArray = NSArray()
+            let path = NSBundle.mainBundle().pathForResource("usuario", ofType: "plist")
+            puntosArr = NSArray(contentsOfFile: path!)!
+            puntosArr.writeToFile(filePath, atomically: true)
+            print("Archivo de puntos de usuario creado.")
+        }
+        else{
+            print("Ya existe el archivo.")
+        }
+        
+        
     }
     
     func stopMusic(){
