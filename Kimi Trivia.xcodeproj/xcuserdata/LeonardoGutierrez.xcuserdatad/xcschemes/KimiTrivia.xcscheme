@@ -17,7 +17,7 @@
                BlueprintIdentifier = "F69AB7501C9CEFE20072F235"
                BuildableName = "KimiTrivia.app"
                BlueprintName = "KimiTrivia"
-               ReferencedContainer = "container:KimiTrivia.xcodeproj">
+               ReferencedContainer = "container:Kimi Trivia.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "F69AB7501C9CEFE20072F235"
             BuildableName = "KimiTrivia.app"
             BlueprintName = "KimiTrivia"
-            ReferencedContainer = "container:KimiTrivia.xcodeproj">
+            ReferencedContainer = "container:Kimi Trivia.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "F69AB7501C9CEFE20072F235"
             BuildableName = "KimiTrivia.app"
             BlueprintName = "KimiTrivia"
-            ReferencedContainer = "container:KimiTrivia.xcodeproj">
+            ReferencedContainer = "container:Kimi Trivia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "F69AB7501C9CEFE20072F235"
             BuildableName = "KimiTrivia.app"
             BlueprintName = "KimiTrivia"
-            ReferencedContainer = "container:KimiTrivia.xcodeproj">
+            ReferencedContainer = "container:Kimi Trivia.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

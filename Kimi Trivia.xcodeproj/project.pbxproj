@@ -185,7 +185,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F69AB74C1C9CEFE20072F235 /* Build configuration list for PBXProject "KimiTrivia" */;
+			buildConfigurationList = F69AB74C1C9CEFE20072F235 /* Build configuration list for PBXProject "Kimi Trivia" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -374,7 +374,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F69AB74C1C9CEFE20072F235 /* Build configuration list for PBXProject "KimiTrivia" */ = {
+		F69AB74C1C9CEFE20072F235 /* Build configuration list for PBXProject "Kimi Trivia" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F69AB7611C9CEFE20072F235 /* Debug */,
