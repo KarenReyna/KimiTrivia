@@ -11,6 +11,8 @@ import AVFoundation
 
 class ViewControllerNivel: UIViewController {
 
+    var lecturas: NSArray = NSArray()
+    
     @IBOutlet weak var lblNivel: UILabel!
     var titulo: String = "aaa"
     var player: jugador = jugador()
@@ -19,12 +21,26 @@ class ViewControllerNivel: UIViewController {
     var sonidoClick = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("Blop", ofType: "mp3")!)
     var audioClick = AVAudioPlayer()
     
+    //Outlets
+    @IBOutlet weak var lblContenido: UILabel!
+    @IBOutlet weak var vistaLectura: UIView!
+    @IBOutlet weak var textoLectura: UITextView!
+    
+    
     //BotonesNiveles
     @IBOutlet weak var btn1: UIButton!
     @IBOutlet weak var btn2: UIButton!
     @IBOutlet weak var btn3: UIButton!
     @IBOutlet weak var btn4: UIButton!
     @IBOutlet weak var btn5: UIButton!
+    
+    //Botones Lecturas
+    @IBOutlet weak var btnL1: UIButton!
+    @IBOutlet weak var btnL2: UIButton!
+    @IBOutlet weak var btnL3: UIButton!
+    @IBOutlet weak var btnL4: UIButton!
+    @IBOutlet weak var btnL5: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,9 +49,29 @@ class ViewControllerNivel: UIViewController {
         audioClick = try! AVAudioPlayer(contentsOfURL: sonidoClick, fileTypeHint: nil)
         audioClick.prepareToPlay()
         
+        //Preguntas
+        if(titulo == "Básico"){
+            let path = NSBundle.mainBundle().pathForResource("BasicoTextos", ofType: "plist")
+            lecturas = NSArray(contentsOfFile: path!)!
+        }
+        else if(titulo == "Intermedio"){
+            let path = NSBundle.mainBundle().pathForResource("IntermedioTextos", ofType: "plist")
+            lecturas = NSArray(contentsOfFile: path!)!
+        }
+        else{
+            let path = NSBundle.mainBundle().pathForResource("AvanzadoTextos", ofType: "plist")
+            lecturas = NSArray(contentsOfFile: path!)!
+        }
+        
         cargarPuntos()
 
     }
+    
+    @IBAction func ocultarLectura(sender: AnyObject) {
+        vistaLectura.hidden = true
+    }
+    
+    
 
     @IBAction func botonSonido(sender: AnyObject){
        audioClick.play()
@@ -80,25 +116,68 @@ class ViewControllerNivel: UIViewController {
         
         if(titulo == "Básico"){
             puntos = player.puntosBasico
+            lblContenido.text = "Historia de la Química Fragante"
         }
         else if (titulo == "Intermedio"){
             puntos = player.puntosIntermedio
+            lblContenido.text = "Mezclas"
         }
         else if(titulo == "Avanzado"){
             puntos = player.puntosAvanzado
+            lblContenido.text = "Soluciones"
         }
         
         if(puntos >= 5){
             btn2.enabled = true
+            if(String(lecturas.objectAtIndex(1).objectForKey("Texto")!) != ""){
+                btnL2.enabled = true
+                btnL2.hidden = false
+            }
+            else{
+                btnL2.hidden = true
+            }
+        }
+        else{
+            btnL2.hidden = true
         }
         if(puntos >= 10){
             btn3.enabled = true
+            if(String(lecturas.objectAtIndex(2).objectForKey("Texto")!) != ""){
+                btnL3.enabled = true
+                btnL3.hidden = false
+            }
+            else{
+                btnL3.hidden = true
+            }
+        }
+        else{
+            btnL3.hidden = true
         }
         if(puntos >= 15){
             btn4.enabled = true
+            if(String(lecturas.objectAtIndex(3).objectForKey("Texto")!) != ""){
+                btnL4.enabled = true
+                btnL4.hidden = false
+            }
+            else{
+                btnL4.hidden = true
+            }
+        }
+        else{
+            btnL4.hidden = true
         }
         if(puntos >= 20){
             btn5.enabled = true
+            if(String(lecturas.objectAtIndex(4).objectForKey("Texto")!) != ""){
+                btnL5.enabled = true
+                btnL5.hidden = false
+            }
+            else{
+                btnL5.hidden = true
+            }
+        }
+        else{
+            btnL5.hidden = true
         }
         
         //Prints
@@ -110,6 +189,31 @@ class ViewControllerNivel: UIViewController {
         
         
     }
+    
+   
+    @IBAction func mostrarLectura(sender: UIButton) {
+        
+        if(sender == btnL1){
+            textoLectura.text = String(lecturas.objectAtIndex(0).objectForKey("Texto")!)
+        }
+        else if(sender == btnL2){
+            textoLectura.text = String(lecturas.objectAtIndex(1).objectForKey("Texto")!)
+        }
+        else if(sender == btnL3){
+            textoLectura.text = String(lecturas.objectAtIndex(2).objectForKey("Texto")!)
+        }
+        else if(sender == btnL4){
+            textoLectura.text = String(lecturas.objectAtIndex(3).objectForKey("Texto")!)
+        }
+        else if(sender == btnL5){
+            textoLectura.text = String(lecturas.objectAtIndex(4).objectForKey("Texto")!)
+        }
+        
+        vistaLectura.hidden = false
+        
+        
+    }
+    
     
     // MARK: - Navigation
 

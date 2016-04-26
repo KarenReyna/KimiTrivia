@@ -21,6 +21,7 @@
 		74CD9FF81CC1A3BD00E262CF /* Blop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FF71CC1A3BD00E262CF /* Blop.mp3 */; };
 		74CD9FFA1CC1A67700E262CF /* countdown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FF91CC1A67700E262CF /* countdown.mp3 */; };
 		74CD9FFC1CC1B05400E262CF /* endOfGame.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FFB1CC1B05400E262CF /* endOfGame.mp3 */; };
+		74E502F61CC6AD7B00086343 /* fondoGradienteSinRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74E502F51CC6AD7B00086343 /* fondoGradienteSinRuntime.swift */; };
 		F69AB7551C9CEFE20072F235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB7541C9CEFE20072F235 /* AppDelegate.swift */; };
 		F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AB7561C9CEFE20072F235 /* ViewController.swift */; };
 		F69AB75A1C9CEFE20072F235 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F69AB7581C9CEFE20072F235 /* Main.storyboard */; };
@@ -47,6 +48,7 @@
 		74CD9FF71CC1A3BD00E262CF /* Blop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blop.mp3; sourceTree = "<group>"; };
 		74CD9FF91CC1A67700E262CF /* countdown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = countdown.mp3; sourceTree = "<group>"; };
 		74CD9FFB1CC1B05400E262CF /* endOfGame.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endOfGame.mp3; sourceTree = "<group>"; };
+		74E502F51CC6AD7B00086343 /* fondoGradienteSinRuntime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fondoGradienteSinRuntime.swift; sourceTree = "<group>"; };
 		F69AB7511C9CEFE20072F235 /* KimiTrivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KimiTrivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69AB7541C9CEFE20072F235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F69AB7561C9CEFE20072F235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 			isa = PBXGroup;
 			children = (
 				F69AB76D1C9D07DE0072F235 /* fondoGradiente.swift */,
+				74E502F51CC6AD7B00086343 /* fondoGradienteSinRuntime.swift */,
 				F69AB7541C9CEFE20072F235 /* AppDelegate.swift */,
 				F69AB7561C9CEFE20072F235 /* ViewController.swift */,
 				7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */,
@@ -237,6 +240,7 @@
 				F6F292D71C9DD365009FA50D /* jugador.swift in Sources */,
 				7483F71F1C9DF203007370A0 /* ViewControllerFinDelJuego.swift in Sources */,
 				F69AB76E1C9D07DE0072F235 /* fondoGradiente.swift in Sources */,
+				74E502F61CC6AD7B00086343 /* fondoGradienteSinRuntime.swift in Sources */,
 				F69AB7701C9D16650072F235 /* ViewControllerNivel.swift in Sources */,
 				F69AB7571C9CEFE20072F235 /* ViewController.swift in Sources */,
 				F6F292D91C9DD969009FA50D /* ViewControllerPreguntas.swift in Sources */,
