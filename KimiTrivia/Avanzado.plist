@@ -274,179 +274,181 @@
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezclan 8 moles de soluto en 1 litro de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>8M</string>
 		<key>B</key>
-		<string></string>
+		<string>8N</string>
 		<key>C</key>
-		<string></string>
+		<string>9M</string>
 		<key>D</key>
-		<string></string>
+		<string>Ninguna de las anteriores</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>8M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezclan 6 moles de soluto en 2 litros de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>6M</string>
 		<key>B</key>
-		<string></string>
+		<string>6N</string>
 		<key>C</key>
-		<string></string>
+		<string>3M</string>
 		<key>D</key>
-		<string></string>
+		<string>3N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>3M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Normalidad de una solución si se mezclan 2.5 equivalentes de soluto en 1 litro de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>2N</string>
 		<key>B</key>
-		<string></string>
+		<string>2.5N</string>
 		<key>C</key>
-		<string></string>
+		<string>2.5M</string>
 		<key>D</key>
-		<string></string>
+		<string>Ninguna de las anteriores</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>2.5N</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Normalidad de una solución si se mezclan 7 equivalentes de soluto en 3 litros de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>7N</string>
 		<key>B</key>
-		<string></string>
+		<string>7.5N</string>
 		<key>C</key>
-		<string></string>
+		<string>2N</string>
 		<key>D</key>
-		<string></string>
+		<string>2.5N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>2.5N</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezcla 1 mol de soluto en 2 litros de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>0.5M</string>
 		<key>B</key>
-		<string></string>
+		<string>0.5N</string>
 		<key>C</key>
-		<string></string>
+		<string>1M</string>
 		<key>D</key>
-		<string></string>
+		<string>1N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>0.5M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezclan 2 moles de soluto en 500 de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>4M</string>
 		<key>B</key>
-		<string></string>
+		<string>2M</string>
 		<key>C</key>
-		<string></string>
+		<string>3M</string>
 		<key>D</key>
-		<string></string>
+		<string>4N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>4M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezcla 1 mol de soluto en 450ml de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>1M</string>
 		<key>B</key>
-		<string></string>
+		<string>2.22M</string>
 		<key>C</key>
-		<string></string>
+		<string>3.5M</string>
 		<key>D</key>
-		<string></string>
+		<string>4M</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>2.22M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Molaridad de una solución si se mezclan 3 moles de soluto en 3 litros de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>2M</string>
 		<key>B</key>
-		<string></string>
+		<string>2N</string>
 		<key>C</key>
-		<string></string>
+		<string>1M</string>
 		<key>D</key>
-		<string></string>
+		<string>1N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>1M</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Normalidad de una solución si se mezclan 5 equivalentes de soluto en 300ml de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>16.66M</string>
 		<key>B</key>
-		<string></string>
+		<string>6N</string>
 		<key>C</key>
-		<string></string>
+		<string>16.66N</string>
 		<key>D</key>
-		<string></string>
+		<string>3N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>16.66N</string>
 		<key>Tipo</key>
+		<string>OM</string>
+		<key>Imagen</key>
 		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string></string>
+		<string>Normalidad de una solución si se mezclan 3 equivalentes de soluto en 850 ml de solvente</string>
 		<key>A</key>
-		<string></string>
+		<string>4N</string>
 		<key>B</key>
-		<string></string>
+		<string>3N</string>
 		<key>C</key>
-		<string></string>
+		<string>2.5N</string>
 		<key>D</key>
-		<string></string>
+		<string>3.53N</string>
 		<key>Correcta</key>
-		<string></string>
+		<string>3.53N</string>
 		<key>Tipo</key>
-		<string></string>
+		<string>OM</string>
 		<key>Imagen</key>
 		<string></string>
 	</dict>

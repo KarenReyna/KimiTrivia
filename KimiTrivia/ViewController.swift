@@ -47,6 +47,7 @@ class ViewController: UIViewController {
             print("Archivo de puntos de usuario creado.")
         }
         else{
+            print(filePath)
             print("Ya existe el archivo.")
         }
         
