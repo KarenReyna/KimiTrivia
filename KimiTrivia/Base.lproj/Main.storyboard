@@ -123,15 +123,13 @@
                                             <segue destination="M5C-Il-RX7" kind="presentation" identifier="intermedio" modalTransitionStyle="crossDissolve" id="raT-Fn-Tze"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X54-g9-VNN">
-                                        <rect key="frame" x="345" y="27" width="22" height="22"/>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X54-g9-VNN">
+                                        <rect key="frame" x="341" y="23" width="30" height="30"/>
+                                        <state key="normal" image="info"/>
                                         <connections>
                                             <segue destination="y4b-5T-pdz" kind="presentation" modalTransitionStyle="flipHorizontal" id="nPE-Z0-EIh"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoTexto" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-NP-lJU">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
-                                    </imageView>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="microscopio" translatesAutoresizingMaskIntoConstraints="NO" id="QR0-aP-gwf">
                                         <rect key="frame" x="42" y="454" width="45" height="45"/>
                                     </imageView>
@@ -155,6 +153,16 @@
                                             <segue destination="M5C-Il-RX7" kind="presentation" identifier="avanzado" modalTransitionStyle="crossDissolve" id="U6O-4L-Zbk"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="439-Z5-se5">
+                                        <rect key="frame" x="309" y="23" width="30" height="30"/>
+                                        <state key="normal" image="borrarUsuario"/>
+                                        <connections>
+                                            <action selector="borrarUsuario:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rt9-zP-lt7"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logoTexto" translatesAutoresizingMaskIntoConstraints="NO" id="0Fh-NP-lJU">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="314"/>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <userDefinedRuntimeAttributes>
@@ -819,7 +827,9 @@ A01363332</string>
         <image name="Nivel" width="80" height="80"/>
         <image name="adn" width="96" height="96"/>
         <image name="bien" width="100" height="100"/>
+        <image name="borrarUsuario" width="96" height="96"/>
         <image name="bote" width="96" height="96"/>
+        <image name="info" width="96" height="96"/>
         <image name="logoTexto" width="931" height="592"/>
         <image name="mal" width="100" height="100"/>
         <image name="male" width="96" height="96"/>

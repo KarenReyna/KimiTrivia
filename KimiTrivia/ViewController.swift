@@ -61,6 +61,33 @@ class ViewController: UIViewController {
         ThemePlayer.play()
     }
 
+    @IBAction func borrarUsuario(sender: AnyObject) {
+        
+        let alert = UIAlertController(title: "Reiniciar Puntaje", message: "Por favor escribe literalmente SIQUIERO para borrar tu avance del juego.", preferredStyle: UIAlertControllerStyle.Alert)
+        alert.addTextFieldWithConfigurationHandler({(textField: UITextField!) in
+            textField.secureTextEntry = false
+        })
+        
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.Default, handler: {(action) -> Void in
+            let textField = alert.textFields![0] as UITextField
+            if(textField.text == "SIQUIERO"){
+                let fileName = "/usuario.plist"
+                let paths = NSSearchPathForDirectoriesInDomains(.DocumentDirectory, .UserDomainMask, true)
+                let documentsDirectory = paths[0]
+                let filePath: String = documentsDirectory.stringByAppendingString(fileName)
+                
+                var puntosArr: NSArray = NSArray()
+                let path = NSBundle.mainBundle().pathForResource("usuario", ofType: "plist")
+                puntosArr = NSArray(contentsOfFile: path!)!
+                puntosArr.writeToFile(filePath, atomically: true)
+            }
+            
+        }))
+        
+        self.presentViewController(alert, animated: true, completion: nil)
+        
+    }
     
 
     override func didReceiveMemoryWarning() {
