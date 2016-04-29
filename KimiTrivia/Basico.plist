@@ -18,7 +18,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N1P1</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -36,7 +36,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N1P2</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -54,7 +54,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N1P3</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -72,7 +72,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N1P4</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -90,7 +90,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N1P5</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -108,7 +108,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N2P1</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -126,7 +126,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N2P2</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -144,7 +144,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N2P3</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -288,7 +288,7 @@
 		<key>Tipo</key>
 		<string>VF</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N4P1</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -396,7 +396,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N5P2</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -414,7 +414,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N5P3</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -432,7 +432,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N5P4</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -450,7 +450,7 @@
 		<key>Tipo</key>
 		<string>OM</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>N5P5</string>
 	</dict>
 </array>
 </plist>
