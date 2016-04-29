@@ -571,13 +571,13 @@ A01363332</string>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pregunta 1: ????????????????????? ????????????????????? ???????????" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cdX-Oz-ea3">
-                                        <rect key="frame" x="24" y="108" width="326" height="171"/>
+                                        <rect key="frame" x="24" y="73" width="326" height="110"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mdD-Er-G0r">
-                                        <rect key="frame" x="24" y="385" width="326" height="51"/>
+                                        <rect key="frame" x="24" y="444" width="326" height="51"/>
                                         <color key="backgroundColor" red="1" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
@@ -591,7 +591,7 @@ A01363332</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F1A-R9-BRQ">
-                                        <rect key="frame" x="24" y="444" width="326" height="51"/>
+                                        <rect key="frame" x="24" y="503" width="326" height="51"/>
                                         <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
@@ -605,7 +605,7 @@ A01363332</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a26-jk-gfk">
-                                        <rect key="frame" x="24" y="503" width="326" height="51"/>
+                                        <rect key="frame" x="24" y="562" width="326" height="51"/>
                                         <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
@@ -619,7 +619,7 @@ A01363332</string>
                                         </connections>
                                     </button>
                                     <button opaque="NO" alpha="0.90000000000000002" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhk-Y7-FAw">
-                                        <rect key="frame" x="24" y="326" width="326" height="51"/>
+                                        <rect key="frame" x="24" y="385" width="326" height="51"/>
                                         <color key="backgroundColor" red="1" green="0.80000001190000003" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="ChalkboardSE-Light" family="Chalkboard SE" pointSize="20"/>
                                         <state key="normal" title="Respuesta">
@@ -637,6 +637,9 @@ A01363332</string>
                                         <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.20000000000000001"/>
                                         <color key="progressTintColor" red="0.50196081400000003" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     </progressView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="borrarUsuario" translatesAutoresizingMaskIntoConstraints="NO" id="oG7-Tg-ZvW">
+                                        <rect key="frame" x="50" y="173" width="275" height="183"/>
+                                    </imageView>
                                     <view hidden="YES" alpha="0.75" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qj0-lm-seW">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <subviews>
@@ -678,6 +681,7 @@ A01363332</string>
                         <outlet property="btnRespuestaB" destination="mdD-Er-G0r" id="FlL-2f-FTi"/>
                         <outlet property="btnRespuestaC" destination="F1A-R9-BRQ" id="4rr-oB-Y6F"/>
                         <outlet property="btnRespuestaD" destination="a26-jk-gfk" id="iXC-ix-eXR"/>
+                        <outlet property="fotoPregunta" destination="oG7-Tg-ZvW" id="725-bY-4nF"/>
                         <outlet property="lblPregunta" destination="cdX-Oz-ea3" id="OXS-i8-yI1"/>
                         <outlet property="lblTiempo" destination="ybb-Dh-XT4" id="yy6-nf-v8Q"/>
                         <outlet property="progressTime" destination="SZK-m7-LCx" id="COH-br-T0P"/>

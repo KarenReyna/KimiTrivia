@@ -18,7 +18,7 @@
 		<key>Tipo</key>
 		<string>VF</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>bien</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -54,7 +54,7 @@
 		<key>Tipo</key>
 		<string>VF</string>
 		<key>Imagen</key>
-		<string></string>
+		<string>Autor</string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>

@@ -24,6 +24,8 @@ class ViewControllerPreguntas: UIViewController {
     @IBOutlet weak var btnRespuestaC: UIButton!
     @IBOutlet weak var btnRespuestaD: UIButton!
     @IBOutlet weak var lblPregunta: UILabel!
+    @IBOutlet weak var fotoPregunta: UIImageView!
+    
     
     
     //Sonidos
@@ -109,6 +111,8 @@ class ViewControllerPreguntas: UIViewController {
             btnRespuestaC.setTitle(String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("C")!), forState: UIControlState.Normal)
             btnRespuestaD.setTitle(String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("D")!), forState: UIControlState.Normal)
             
+            
+            
         }
         else{
             btnRespuestaA.hidden = true
@@ -117,6 +121,18 @@ class ViewControllerPreguntas: UIViewController {
             btnRespuestaB.setTitle(String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("A")!), forState: UIControlState.Normal)
             btnRespuestaC.setTitle(String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("B")!), forState: UIControlState.Normal)
         }
+        
+        if(String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("Imagen")!) != ""){
+            
+            fotoPregunta.image = UIImage(named: String(preguntas.objectAtIndex(indexPreguntaEnPlist).objectForKey("Imagen")!))
+            fotoPregunta.hidden = false
+            
+        }
+        else{
+            fotoPregunta.hidden = true
+        }
+        
+        
         
     }
     
@@ -152,6 +168,7 @@ class ViewControllerPreguntas: UIViewController {
             btnRespuestaC.hidden = true
             btnRespuestaD.hidden = true
             lblPregunta.hidden = true
+            fotoPregunta.hidden = true
            
         }
         
