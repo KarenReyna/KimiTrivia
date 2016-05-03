@@ -13,9 +13,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    func setStoryboard(){
+        let storyboard: UIStoryboard = self.grabStoryboard();
+        self.setInitialScreen(storyboard)
+    }
+    
+    func grabStoryboard() -> UIStoryboard{
+        let screenHeight: Int = Int(UIScreen.mainScreen().bounds.size.height)
+        var storyboard: UIStoryboard
+        
+        print("Height: ")
+        print(screenHeight)
+        
+        switch screenHeight {
+        case 568:
+            storyboard = UIStoryboard(name: "Main iPhone 5", bundle: nil)
+            break
+        case 667:
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+        case 736:
+            storyboard = UIStoryboard(name: "Main iPhone 6 Plus", bundle: nil)
+            break
+        default:
+            storyboard = UIStoryboard(name: "Main", bundle: nil)
+            break
+        }
+        return storyboard
+        
+    }
+    
+    func setInitialScreen(storyboard: UIStoryboard){
+        var initViewController: UIViewController
+        initViewController = storyboard.instantiateViewControllerWithIdentifier("First")
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.rootViewController = initViewController
+        self.window?.makeKeyAndVisible()
+    }
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        setStoryboard()
         return true
     }
 

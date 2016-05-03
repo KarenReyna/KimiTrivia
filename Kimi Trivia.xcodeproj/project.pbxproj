@@ -12,6 +12,8 @@
 		7458E4781CC1D45B0082503A /* ViewControllerAutores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */; };
 		7458E47A1CC1D9970082503A /* Blue_Skies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7458E4791CC1D9970082503A /* Blue_Skies.mp3 */; };
 		7483F71F1C9DF203007370A0 /* ViewControllerFinDelJuego.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */; };
+		749C79051CD85B6E00712ED5 /* Main iPhone 5.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749C79011CD85B6E00712ED5 /* Main iPhone 5.storyboard */; };
+		749C79061CD85B6E00712ED5 /* Main iPhone 6 Plus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 749C79031CD85B6E00712ED5 /* Main iPhone 6 Plus.storyboard */; };
 		74CD9FEB1CC17F4200E262CF /* Intermedio.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FEA1CC17F4200E262CF /* Intermedio.plist */; };
 		74CD9FED1CC1808800E262CF /* BasicoTextos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FEC1CC1808800E262CF /* BasicoTextos.plist */; };
 		74CD9FEF1CC1818200E262CF /* IntermedioTextos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74CD9FEE1CC1818200E262CF /* IntermedioTextos.plist */; };
@@ -39,6 +41,8 @@
 		7458E4771CC1D45B0082503A /* ViewControllerAutores.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerAutores.swift; sourceTree = "<group>"; };
 		7458E4791CC1D9970082503A /* Blue_Skies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blue_Skies.mp3; sourceTree = "<group>"; };
 		7483F71E1C9DF203007370A0 /* ViewControllerFinDelJuego.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerFinDelJuego.swift; sourceTree = "<group>"; };
+		749C79021CD85B6E00712ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone 5.storyboard"; sourceTree = "<group>"; };
+		749C79041CD85B6E00712ED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main iPhone 6 Plus.storyboard"; sourceTree = "<group>"; };
 		74CD9FEA1CC17F4200E262CF /* Intermedio.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Intermedio.plist; sourceTree = "<group>"; };
 		74CD9FEC1CC1808800E262CF /* BasicoTextos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BasicoTextos.plist; sourceTree = "<group>"; };
 		74CD9FEE1CC1818200E262CF /* IntermedioTextos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = IntermedioTextos.plist; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				F69AB7581C9CEFE20072F235 /* Main.storyboard */,
 				7448C9F61CC5D21500F9AC59 /* usuario.plist */,
 				F69AB75D1C9CEFE20072F235 /* LaunchScreen.storyboard */,
+				749C79011CD85B6E00712ED5 /* Main iPhone 5.storyboard */,
+				749C79031CD85B6E00712ED5 /* Main iPhone 6 Plus.storyboard */,
 				F69AB75B1C9CEFE20072F235 /* Assets.xcassets */,
 				F69AB7601C9CEFE20072F235 /* Info.plist */,
 				74CBF3F11CC566DF005226F4 /* View Controllers */,
@@ -222,7 +228,9 @@
 				74CD9FF41CC186BC00E262CF /* Avanzado.plist in Resources */,
 				F69AB75A1C9CEFE20072F235 /* Main.storyboard in Resources */,
 				74CD9FF81CC1A3BD00E262CF /* Blop.mp3 in Resources */,
+				749C79061CD85B6E00712ED5 /* Main iPhone 6 Plus.storyboard in Resources */,
 				74CD9FFC1CC1B05400E262CF /* endOfGame.mp3 in Resources */,
+				749C79051CD85B6E00712ED5 /* Main iPhone 5.storyboard in Resources */,
 				7458E4761CC1CFFB0082503A /* muestraRespuesta.mp3 in Resources */,
 				74CD9FED1CC1808800E262CF /* BasicoTextos.plist in Resources */,
 				74CD9FEF1CC1818200E262CF /* IntermedioTextos.plist in Resources */,
@@ -251,6 +259,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		749C79011CD85B6E00712ED5 /* Main iPhone 5.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749C79021CD85B6E00712ED5 /* Base */,
+			);
+			name = "Main iPhone 5.storyboard";
+			sourceTree = "<group>";
+		};
+		749C79031CD85B6E00712ED5 /* Main iPhone 6 Plus.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				749C79041CD85B6E00712ED5 /* Base */,
+			);
+			name = "Main iPhone 6 Plus.storyboard";
+			sourceTree = "<group>";
+		};
 		F69AB7581C9CEFE20072F235 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
