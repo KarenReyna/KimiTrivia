@@ -18,7 +18,7 @@
 		<key>Tipo</key>
 		<string>VF</string>
 		<key>Imagen</key>
-		<string>bien</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
@@ -54,11 +54,11 @@
 		<key>Tipo</key>
 		<string>VF</string>
 		<key>Imagen</key>
-		<string>Autor</string>
+		<string></string>
 	</dict>
 	<dict>
 		<key>Pregunta</key>
-		<string>La concenración se representa como masa / volumen</string>
+		<string>La concentración se representa como masa / volumen</string>
 		<key>A</key>
 		<string>Falso</string>
 		<key>B</key>
